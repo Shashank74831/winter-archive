@@ -1,16 +1,30 @@
-# React + Vite
+# ❄️ The Winter Archive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A curated collection of frozen moments
 
-Currently, two official plugins are available:
+A beautiful, interactive winter photo gallery built with React. Move your cursor over any card to see a magical ice-blue glow follow your mouse, with realistic snowfall falling in the background.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- Interactive ChromaGrid Cards - Cursor glow effect
+- Realistic Snowfall Animation
+- 6 Curated Collections - Mountain, Forest, City Lights, Lake, Road Trip & Trek
+- Luxury Dark Theme
+- Fully Responsive
 
-## React Compiler
+## 🛠️ Tech Stack
+- React + Vite
+- JavaScript
+- CSS3
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 How to Run
+Clone the repo, then run npm install and npm run dev
+Open http://localhost:5173 in your browser
 
-## Expanding the ESLint configuration
+## 📸 Preview
+Winter Archive - Frozen Moments Collection
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 👨‍💻 Author
+Shashank
+https://github.com/Shashank74831
+
+⭐ Star this repo if you liked it!
