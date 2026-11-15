@@ -1,0 +1,31 @@
+.chroma-grid{position:relative;display:flex;flex-wrap:wrap;justify-content:center;gap:0.75rem;max-width:1200px;margin:0 auto;padding:1rem}
+.chroma-card{position:relative;display:flex;flex-direction:column;width:300px;border-radius:20px;overflow:hidden;border:1px solid #333;background:#0a0a0a;--opacity:0}
+.chroma-card::before{content:"";position:absolute;inset:0;background:radial-gradient(300px circle at var(--x,50%) var(--y,50%), var(--border,#fff), transparent 65%);opacity:var(--opacity,0);z-index:1;pointer-events:none;transition:opacity .3s}
+.chroma-img-wrapper{position:relative;z-index:0;padding:10px}
+.chroma-img-wrapper img{width:100%;height:220px;object-fit:cover;border-radius:12px;display:block}
+.chroma-info{padding:0 16px 16px;color:#fff;position:relative;z-index:2}
+.chroma-info h3 {
+  font-family: Georgia, serif;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0 0 4px 0;
+}
+
+.chroma-info p {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  color: #a8c8e8;
+  margin: 0;
+}
+
+.chroma-info span {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #7aa0c4;
+}
